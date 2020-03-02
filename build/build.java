@@ -1,9 +1,3 @@
-/**
-
-
-
- */
-
 import static java.lang.System.*;
 import static javax.tools.StandardLocation.*;
 import static java.util.stream.Collectors.*;
@@ -56,7 +50,7 @@ class build {
     }
     file_manager.setLocationFromPaths(CLASS_OUTPUT, singletonList(module_output_path));
 
-    // TODO recursivly find all java source files:
+    // TODO recursively find all java source files:
     var all_source_files = walk(source_path)
     .filter(Files::isReadable)
     .filter(Files::isRegularFile)
@@ -83,7 +77,7 @@ class build {
       file_manager,
       // custom diagnostics; leave default for now
       null,
-      // compiler options. do these have to be in command line arguent form?
+      // compiler options. do these have to be in command line argument form?
       Set.of(
         "-g",
         //"-verbose",
