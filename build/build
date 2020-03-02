@@ -1,0 +1,12 @@
+--source 13
+# fail the build if assertions fail
+-enableassertions
+# use a no-op GC, because a one-off script needs no GC
+#-XX:+UnlockExperimentalVMOptions
+#-XX:+UseEpsilonGC
+#-XX:+AlwaysPreTouch
+# lets try to be frugal with heap memory. at least "frugal" for java...
+#-Xms256m
+#-Xmx256m
+# the actual build script
+build.java
