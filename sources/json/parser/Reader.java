@@ -1,3 +1,8 @@
 package parser;
 
-public class Reader {}
+/**
+ * De-serializes JSON in memory.
+ */
+public class Reader {
+
+}

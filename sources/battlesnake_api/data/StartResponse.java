@@ -1,3 +1,7 @@
 package data;
 
-public class StartResponse {}
+/**
+ * JSON-Payload for the response to a {@link rest.Start}-Call.
+ */
+public class StartResponse {
+}

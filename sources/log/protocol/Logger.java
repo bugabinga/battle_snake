@@ -1,3 +1,8 @@
 package protocol;
 
-public class Logger {}
+/**
+ * Singleton instance of the logging interface.
+ */
+public class Logger {
+
+}

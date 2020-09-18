@@ -1,3 +1,7 @@
 package data;
 
-public class EndRequest {}
+/**
+ * JSON-Payload for the request of a {@link rest.End}-Call.
+ */
+public class EndRequest {
+}

@@ -1,3 +1,9 @@
 package strategy;
 
-public class AppleEater{}
+/**
+  * This AI sets its highest goal to: "Collecting all them apples".
+  */
+public class AppleEater
+{
+
+}

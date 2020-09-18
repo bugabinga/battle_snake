@@ -1,3 +1,8 @@
 package composer;
 
-public class Writer {}
+/**
+ * Serializes JSON in memory.
+ */
+public class Writer {
+
+}

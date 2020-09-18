@@ -1,3 +1,7 @@
 package rest;
 
-public class End {}
+/**
+ * Ends a game of Battlesnake.
+ */
+public class End {
+}
